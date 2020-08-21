@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var count: Int = 0
 
     @IBOutlet weak var counter: UILabel!
     
@@ -18,11 +20,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func increaseCounter(_ sender: UIButton) {
-        print("Increasing Counter")
+        count = count + 1
+        counter.text = "\(count)"
     }
     
     @IBAction func decreaseCounter(_ sender: UIButton) {
-        print("Decreasing Counter")
+        count = count - 1
+        counter.text = "\(count)"
     }
     
 }

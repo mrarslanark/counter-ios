@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var counter: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func increaseCounter(_ sender: UIButton) {
+        print("Increasing Counter")
+    }
+    
+    @IBAction func decreaseCounter(_ sender: UIButton) {
+        print("Decreasing Counter")
+    }
+    
 }
 

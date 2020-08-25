@@ -12,6 +12,6 @@ A simple counter in iOS using Xcode
 # Installation
 - Clone the project using the following command
 ```shell
-git clone git@github.com:mrarslanark/counter-ios.git
+git clone https://github.com/mrarslanark/counter-ios.git
 ```
 - Open project in Xcode using `counter.xcodeproj`
